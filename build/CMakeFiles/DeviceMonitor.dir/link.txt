@@ -1,0 +1,1 @@
+/usr/bin/clang++   -std=c++11 -Wall -g    CMakeFiles/DeviceMonitor.dir/src/MQTTAsyncClient.cpp.o CMakeFiles/DeviceMonitor.dir/src/DeviceMonitor.cpp.o CMakeFiles/DeviceMonitor.dir/src/Network.cpp.o CMakeFiles/DeviceMonitor.dir/src/InfoCollector.cpp.o  -o DeviceMonitor -rdynamic -lpaho-mqtt3c -lpaho-mqtt3a 

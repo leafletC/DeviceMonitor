@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/InfoCollector.h
+
+/root/DeviceMonitor/src/InfoCollector.cpp
+InfoCollector.h
+/root/DeviceMonitor/src/InfoCollector.h
+
