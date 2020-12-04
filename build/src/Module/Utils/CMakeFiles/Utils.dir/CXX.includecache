@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yeyusong/DeviceMonitor/src/Module/Utils/Utils.cpp
+Utils.h
+/home/yeyusong/DeviceMonitor/src/Module/Utils/Utils.h
+
+/home/yeyusong/DeviceMonitor/src/Module/Utils/Utils.h
+string
+-
+vector
+-
+

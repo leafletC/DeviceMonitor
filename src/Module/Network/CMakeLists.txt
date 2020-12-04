@@ -1,0 +1,5 @@
+add_subdirectory (./MQTT)
+include_directories (./MQTT)
+aux_source_directory (. NETWORK_LIST)
+add_library (Network ${NETWORK_LIST})
+target_link_libraries (Network Utils Mqtt)

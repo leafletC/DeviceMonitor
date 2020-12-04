@@ -1,0 +1,2 @@
+/usr/bin/ar qc libInfoCollector.a CMakeFiles/InfoCollector.dir/InfoCollector.cpp.o
+/usr/bin/ranlib libInfoCollector.a

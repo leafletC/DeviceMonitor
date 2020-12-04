@@ -1,0 +1,133 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "src/Module/Utils/INI/libINI.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"src/Module/Utils/INI/CMakeLists.txt",
+			"CMakeLists.txt",
+			"src/Module/Utils/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -g -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/yeyusong/DeviceMonitor/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/InfoCollector"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Database"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Network"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Network/MQTT"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Utils"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Utils/INI"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Utils/./Json"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "INI::@bd6ec08bf103cc0e06ed",
+	"name" : "INI",
+	"nameOnDisk" : "libINI.a",
+	"paths" : 
+	{
+		"build" : "src/Module/Utils/INI",
+		"source" : "src/Module/Utils/INI"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Module/Utils/INI/inifile.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,5 @@
+link_directories (${PROJECT_SOURCE_DIR}/lib)
+include_directories (./mysql)
+aux_source_directory (. DATABASE_LIST)
+add_library (Database ${DATABASE_LIST})
+target_link_libraries(Database ${Utils} libmysqlclient.so)

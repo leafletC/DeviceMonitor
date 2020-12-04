@@ -1,0 +1,252 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "DeviceMonitor"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -g -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/yeyusong/DeviceMonitor/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/InfoCollector"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Database"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Network"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Network/MQTT"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Utils"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Utils/INI"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "Database::@45611f9b4db3d0e412c6"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Network::@0bf7f8dd01efec3e1e04"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Mqtt::@71595334cba6cc73b338"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Utils::@40b4e08bf0782bf6aa85"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "INI::@bd6ec08bf103cc0e06ed"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "InfoCollector::@c77861eeb428eceeca7b"
+		}
+	],
+	"id" : "DeviceMonitor::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wall -g -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/home/yeyusong/DeviceMonitor/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/home/yeyusong/DeviceMonitor/src/Module/Database",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/home/yeyusong/DeviceMonitor/src/Module/Network",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/home/yeyusong/DeviceMonitor/src/Module/InfoCollector",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/home/yeyusong/DeviceMonitor/src/Module/Utils",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/yeyusong/DeviceMonitor/lib:/home/yeyusong/DeviceMonitor/src/Module/Database:/home/yeyusong/DeviceMonitor/src/Module/Network:/home/yeyusong/DeviceMonitor/src/Module/InfoCollector:/home/yeyusong/DeviceMonitor/src/Module/Utils",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/Module/Utils/libUtils.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/Module/Network/libNetwork.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/Module/Database/libDatabase.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/Module/InfoCollector/libInfoCollector.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "src/Module/Network/MQTT/libMqtt.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpaho-mqtt3a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lmysqlclient",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/Module/Utils/libUtils.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "src/Module/Utils/INI/libINI.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ljsoncpp",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "DeviceMonitor",
+	"nameOnDisk" : "DeviceMonitor",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/DeviceMonitor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

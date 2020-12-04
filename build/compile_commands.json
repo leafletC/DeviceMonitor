@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/yeyusong/DeviceMonitor/build",
+  "command": "/usr/bin/c++  -I/home/yeyusong/DeviceMonitor/src -I/home/yeyusong/DeviceMonitor/src/Module/InfoCollector -I/home/yeyusong/DeviceMonitor/src/Module/Database -I/home/yeyusong/DeviceMonitor/src/Module/Network -I/home/yeyusong/DeviceMonitor/src/Module/Network/MQTT -I/home/yeyusong/DeviceMonitor/src/Module/Utils -I/home/yeyusong/DeviceMonitor/src/Module/Utils/INI -Wall -g -g -o CMakeFiles/DeviceMonitor.dir/src/DeviceMonitor.cpp.o -c /home/yeyusong/DeviceMonitor/src/DeviceMonitor.cpp",
+  "file": "/home/yeyusong/DeviceMonitor/src/DeviceMonitor.cpp"
+},
+{
+  "directory": "/home/yeyusong/DeviceMonitor/build",
+  "command": "/usr/bin/c++  -I/home/yeyusong/DeviceMonitor/src -I/home/yeyusong/DeviceMonitor/src/Module/InfoCollector -I/home/yeyusong/DeviceMonitor/src/Module/Database -I/home/yeyusong/DeviceMonitor/src/Module/Network -I/home/yeyusong/DeviceMonitor/src/Module/Network/MQTT -I/home/yeyusong/DeviceMonitor/src/Module/Utils -I/home/yeyusong/DeviceMonitor/src/Module/Utils/INI -Wall -g -g -o CMakeFiles/DeviceMonitor.dir/src/main.cpp.o -c /home/yeyusong/DeviceMonitor/src/main.cpp",
+  "file": "/home/yeyusong/DeviceMonitor/src/main.cpp"
+},
+{
+  "directory": "/home/yeyusong/DeviceMonitor/build/src/Module/Database",
+  "command": "/usr/bin/c++  -I/home/yeyusong/DeviceMonitor/src -I/home/yeyusong/DeviceMonitor/src/Module/InfoCollector -I/home/yeyusong/DeviceMonitor/src/Module/Database -I/home/yeyusong/DeviceMonitor/src/Module/Network -I/home/yeyusong/DeviceMonitor/src/Module/Network/MQTT -I/home/yeyusong/DeviceMonitor/src/Module/Utils -I/home/yeyusong/DeviceMonitor/src/Module/Utils/INI -I/home/yeyusong/DeviceMonitor/src/Module/Database/./mysql -Wall -g -g -o CMakeFiles/Database.dir/Database.cpp.o -c /home/yeyusong/DeviceMonitor/src/Module/Database/Database.cpp",
+  "file": "/home/yeyusong/DeviceMonitor/src/Module/Database/Database.cpp"
+},
+{
+  "directory": "/home/yeyusong/DeviceMonitor/build/src/Module/Network",
+  "command": "/usr/bin/c++  -I/home/yeyusong/DeviceMonitor/src -I/home/yeyusong/DeviceMonitor/src/Module/InfoCollector -I/home/yeyusong/DeviceMonitor/src/Module/Database -I/home/yeyusong/DeviceMonitor/src/Module/Network -I/home/yeyusong/DeviceMonitor/src/Module/Network/MQTT -I/home/yeyusong/DeviceMonitor/src/Module/Utils -I/home/yeyusong/DeviceMonitor/src/Module/Utils/INI -I/home/yeyusong/DeviceMonitor/src/Module/Network/./MQTT -Wall -g -g -o CMakeFiles/Network.dir/Network.cpp.o -c /home/yeyusong/DeviceMonitor/src/Module/Network/Network.cpp",
+  "file": "/home/yeyusong/DeviceMonitor/src/Module/Network/Network.cpp"
+},
+{
+  "directory": "/home/yeyusong/DeviceMonitor/build/src/Module/Network/MQTT",
+  "command": "/usr/bin/c++  -I/home/yeyusong/DeviceMonitor/src -I/home/yeyusong/DeviceMonitor/src/Module/InfoCollector -I/home/yeyusong/DeviceMonitor/src/Module/Database -I/home/yeyusong/DeviceMonitor/src/Module/Network -I/home/yeyusong/DeviceMonitor/src/Module/Network/MQTT -I/home/yeyusong/DeviceMonitor/src/Module/Utils -I/home/yeyusong/DeviceMonitor/src/Module/Utils/INI -Wall -g -g -o CMakeFiles/Mqtt.dir/MQTTAsyncClient.cpp.o -c /home/yeyusong/DeviceMonitor/src/Module/Network/MQTT/MQTTAsyncClient.cpp",
+  "file": "/home/yeyusong/DeviceMonitor/src/Module/Network/MQTT/MQTTAsyncClient.cpp"
+},
+{
+  "directory": "/home/yeyusong/DeviceMonitor/build/src/Module/Utils",
+  "command": "/usr/bin/c++  -I/home/yeyusong/DeviceMonitor/src -I/home/yeyusong/DeviceMonitor/src/Module/InfoCollector -I/home/yeyusong/DeviceMonitor/src/Module/Database -I/home/yeyusong/DeviceMonitor/src/Module/Network -I/home/yeyusong/DeviceMonitor/src/Module/Network/MQTT -I/home/yeyusong/DeviceMonitor/src/Module/Utils -I/home/yeyusong/DeviceMonitor/src/Module/Utils/INI -I/home/yeyusong/DeviceMonitor/src/Module/Utils/./Json -Wall -g -g -o CMakeFiles/Utils.dir/MyModule.cpp.o -c /home/yeyusong/DeviceMonitor/src/Module/Utils/MyModule.cpp",
+  "file": "/home/yeyusong/DeviceMonitor/src/Module/Utils/MyModule.cpp"
+},
+{
+  "directory": "/home/yeyusong/DeviceMonitor/build/src/Module/Utils",
+  "command": "/usr/bin/c++  -I/home/yeyusong/DeviceMonitor/src -I/home/yeyusong/DeviceMonitor/src/Module/InfoCollector -I/home/yeyusong/DeviceMonitor/src/Module/Database -I/home/yeyusong/DeviceMonitor/src/Module/Network -I/home/yeyusong/DeviceMonitor/src/Module/Network/MQTT -I/home/yeyusong/DeviceMonitor/src/Module/Utils -I/home/yeyusong/DeviceMonitor/src/Module/Utils/INI -I/home/yeyusong/DeviceMonitor/src/Module/Utils/./Json -Wall -g -g -o CMakeFiles/Utils.dir/TimedTask.cpp.o -c /home/yeyusong/DeviceMonitor/src/Module/Utils/TimedTask.cpp",
+  "file": "/home/yeyusong/DeviceMonitor/src/Module/Utils/TimedTask.cpp"
+},
+{
+  "directory": "/home/yeyusong/DeviceMonitor/build/src/Module/Utils",
+  "command": "/usr/bin/c++  -I/home/yeyusong/DeviceMonitor/src -I/home/yeyusong/DeviceMonitor/src/Module/InfoCollector -I/home/yeyusong/DeviceMonitor/src/Module/Database -I/home/yeyusong/DeviceMonitor/src/Module/Network -I/home/yeyusong/DeviceMonitor/src/Module/Network/MQTT -I/home/yeyusong/DeviceMonitor/src/Module/Utils -I/home/yeyusong/DeviceMonitor/src/Module/Utils/INI -I/home/yeyusong/DeviceMonitor/src/Module/Utils/./Json -Wall -g -g -o CMakeFiles/Utils.dir/Utils.cpp.o -c /home/yeyusong/DeviceMonitor/src/Module/Utils/Utils.cpp",
+  "file": "/home/yeyusong/DeviceMonitor/src/Module/Utils/Utils.cpp"
+},
+{
+  "directory": "/home/yeyusong/DeviceMonitor/build/src/Module/Utils/INI",
+  "command": "/usr/bin/c++  -I/home/yeyusong/DeviceMonitor/src -I/home/yeyusong/DeviceMonitor/src/Module/InfoCollector -I/home/yeyusong/DeviceMonitor/src/Module/Database -I/home/yeyusong/DeviceMonitor/src/Module/Network -I/home/yeyusong/DeviceMonitor/src/Module/Network/MQTT -I/home/yeyusong/DeviceMonitor/src/Module/Utils -I/home/yeyusong/DeviceMonitor/src/Module/Utils/INI -I/home/yeyusong/DeviceMonitor/src/Module/Utils/./Json -Wall -g -g -o CMakeFiles/INI.dir/inifile.cpp.o -c /home/yeyusong/DeviceMonitor/src/Module/Utils/INI/inifile.cpp",
+  "file": "/home/yeyusong/DeviceMonitor/src/Module/Utils/INI/inifile.cpp"
+},
+{
+  "directory": "/home/yeyusong/DeviceMonitor/build/src/Module/InfoCollector",
+  "command": "/usr/bin/c++  -I/home/yeyusong/DeviceMonitor/src -I/home/yeyusong/DeviceMonitor/src/Module/InfoCollector -I/home/yeyusong/DeviceMonitor/src/Module/Database -I/home/yeyusong/DeviceMonitor/src/Module/Network -I/home/yeyusong/DeviceMonitor/src/Module/Network/MQTT -I/home/yeyusong/DeviceMonitor/src/Module/Utils -I/home/yeyusong/DeviceMonitor/src/Module/Utils/INI -Wall -g -g -o CMakeFiles/InfoCollector.dir/InfoCollector.cpp.o -c /home/yeyusong/DeviceMonitor/src/Module/InfoCollector/InfoCollector.cpp",
+  "file": "/home/yeyusong/DeviceMonitor/src/Module/InfoCollector/InfoCollector.cpp"
+}
+]

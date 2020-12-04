@@ -1,0 +1,3 @@
+#define DeviceMonitor_VERSION_MAJOR @DeviceMonitor_VERSION_MAJOR@
+#define DeviceMonitor_VERSION_MINOR @DeviceMonitor_VERSION_MINOR@
+#define DeviceMonitor_VERSION_PATCH @DeviceMonitor_VERSION_PATCH@

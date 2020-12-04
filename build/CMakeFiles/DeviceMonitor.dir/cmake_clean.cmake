@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DeviceMonitor.dir/src/MQTTAsyncClient.cpp.o"
   "CMakeFiles/DeviceMonitor.dir/src/DeviceMonitor.cpp.o"
-  "CMakeFiles/DeviceMonitor.dir/src/Network.cpp.o"
-  "CMakeFiles/DeviceMonitor.dir/src/InfoCollector.cpp.o"
-  "DeviceMonitor.pdb"
+  "CMakeFiles/DeviceMonitor.dir/src/main.cpp.o"
   "DeviceMonitor"
+  "DeviceMonitor.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

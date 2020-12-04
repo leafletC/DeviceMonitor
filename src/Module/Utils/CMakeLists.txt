@@ -1,0 +1,5 @@
+include_directories(./Json)
+add_subdirectory(./INI)
+aux_source_directory (. UTILS_LIST)
+add_library (Utils ${UTILS_LIST})
+target_link_libraries(Utils INI libjsoncpp.so)

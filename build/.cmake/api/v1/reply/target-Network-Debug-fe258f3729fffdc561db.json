@@ -1,0 +1,151 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "src/Module/Network/libNetwork.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"src/Module/Network/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -g -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/yeyusong/DeviceMonitor/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/InfoCollector"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Database"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Network"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Network/MQTT"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Utils"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Utils/INI"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/yeyusong/DeviceMonitor/src/Module/Network/./MQTT"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Mqtt::@71595334cba6cc73b338"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Utils::@40b4e08bf0782bf6aa85"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "INI::@bd6ec08bf103cc0e06ed"
+		}
+	],
+	"id" : "Network::@0bf7f8dd01efec3e1e04",
+	"name" : "Network",
+	"nameOnDisk" : "libNetwork.a",
+	"paths" : 
+	{
+		"build" : "src/Module/Network",
+		"source" : "src/Module/Network"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Module/Network/Network.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
